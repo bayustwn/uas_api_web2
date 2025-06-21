@@ -93,7 +93,7 @@ function checkAuthStatus() {
         if (user.role === 'admin') {
             window.location.href = '../admin/admin.html';
         } else {
-            window.location.href = '../index/index.html';
+            window.location.href = '../index.html';
         }
     }
 }
